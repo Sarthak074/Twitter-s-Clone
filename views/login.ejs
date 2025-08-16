@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="images/x.png"
+          alt="x logo"
+          width="50px"
+          height="50px"
+          class="img"
+        />
+        <div>
+          <a
+            class="google"
+            href="/auth/google/twitter"
+            role="button"
+            style="margin-left: 10px"
+          >
+            <em style="font-size: larger; margin-right: 5px">G </em> Sign ip
+            with Google
+          </a>
+          <div class="rule" style="margin-top: 20px; margin-bottom: 20px">
+            <hr />
+            or
+            <hr />
+          </div>
+          <form
+            action="/login"
+            method="POST"
+            style="display: flex; flex-direction: column; gap: 40px"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              style="height: 50px"
+              placeholder="Email"
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              style="height: 50px"
+              placeholder="password"
+            />
+            <input
+              type="submit"
+              name="submit"
+              value="Login"
+              id="submit"
+              class="login"
+            />
+          </form>
+        </div>
+        <p
+          style="
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            color: gray;
+          "
+        >
+          Don't have an account?
+          <a href="/authentication" style="color: rgb(0, 140, 255)">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

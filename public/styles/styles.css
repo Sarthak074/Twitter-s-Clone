@@ -1,0 +1,409 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+/* authentication */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  width: 400px;
+}
+
+.X_logo {
+  height: 350px;
+  width: 350px;
+}
+
+.auth {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.3rem;
+  margin-top: 35px;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+.google {
+  border: none;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 25px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.createAccount {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  width: 300px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  cursor: pointer;
+  padding-left: 88px;
+  padding-right: 88px;
+}
+
+.signIn {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: black;
+  color: rgb(0, 140, 255);
+  padding: 10px;
+  border-radius: 25px;
+  padding-left: 118px;
+  padding-right: 118px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signIn:hover {
+  background-color: rgb(38, 60, 69);
+}
+
+.rule {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: medium;
+  margin-top: 10px;
+  width: 300px;
+}
+hr {
+  width: 100px;
+  border: none;
+  background-color: grey;
+  height: 0.5px;
+}
+.tc {
+  width: 300px;
+}
+/* ---------------------- */
+
+/* register */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  width: 300px;
+}
+
+input {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+input:focus {
+  border: 2px solid rgb(0, 140, 255);
+  outline: none;
+}
+
+.img {
+  margin-left: 40%;
+}
+
+.dob {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#dob {
+  font-size: 12px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.register {
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  border: none;
+}
+
+/* ----------------------- */
+
+/* login */
+.login {
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  border: none;
+}
+
+/* ------------------------------- */
+
+/* twitter */
+
+.views {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-template-columns: 300px 600px 350px;
+  grid-template-rows: auto;
+}
+.fullscreen .views {
+  height: 100vh;
+  align-items: stretch;
+}
+
+.fullscreen .view {
+  flex: 1;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 10px;
+  border-right: 1px solid gray;
+}
+.tweets {
+  margin-top: 10px;
+}
+.search {
+  margin-top: 10px;
+  border-left: 1px solid gray;
+  padding-left: 30px;
+}
+.sBar {
+  border: none;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(44, 49, 52);
+  width: 300px;
+  height: 25px;
+}
+.sBar:focus {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(0, 140, 255);
+  outline: none;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 10px 10px 10px 10px;
+}
+a:hover {
+  border-radius: 25px;
+  width: fit-content;
+  background-color: rgb(88, 95, 100);
+}
+.send {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.profile:hover {
+  background-color: rgb(57, 54, 50);
+  border-radius: 30px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.postingTweets {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.inputTweets:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+}
+
+.inputTweets {
+  border: none;
+}
+
+.post {
+  background-color: rgb(0, 140, 255);
+  border: none;
+  border-radius: 25px;
+  width: 100px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.t {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.ts {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  border: 1px solid gray;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.sub {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-size: larger;
+  border-radius: 25px;
+  margin-left: 30%;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) and (min-width: 200px) {
+  /* authentication */
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .logo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+  }
+
+  .X_logo {
+    height: 40px;
+    width: 40px;
+  }
+  .auth {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-left: 0;
+    width: 300px;
+  }
+  .google {
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .createAccount {
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    padding-left: 88px;
+    padding-right: 88px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    cursor: pointer;
+  }
+
+  .signIn {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(0, 140, 255);
+    padding: 10px;
+    border-radius: 25px;
+    padding-left: 118px;
+    padding-right: 118px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .rule {
+    display: flex;
+    justify-content: flex-start;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  .tc {
+    font-size: smaller;
+  }
+  /* -------------------------- */
+}
