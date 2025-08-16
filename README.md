@@ -30,8 +30,6 @@ A full-stack Twitter-style app built with **Node.js, Express, EJS, CSS, and Post
 - **EJS** for server-side rendering
 - **PostgreSQL** for relational data
 - **Session** auth (cookie + server session)
-- Simple MVC-ish separation: `routes`, `controllers`, `models`, `views`
-
 
 ---
 
@@ -41,7 +39,6 @@ A full-stack Twitter-style app built with **Node.js, Express, EJS, CSS, and Post
 - **Views:** EJS + CSS + a little client-side JS
 - **DB:** PostgreSQL
 - **Auth:** express-session (cookie-based)
-- **Env:** dotenv
 
 ---
 
