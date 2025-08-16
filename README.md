@@ -18,9 +18,7 @@ A full-stack Twitter-style app built with **Node.js, Express, EJS, CSS, and Post
 
 - 🔐 Auth: register, login, logout (session/cookie)
 - 📝 Tweets: create, list, delete (owner only)
-- ❤️ Likes: like/unlike tweets
 - 🧑‍💻 Profiles: view user profile & their tweets
-- 🔍 Feed: global timeline (newest first)
 - 🖼️ SSR UI with **EJS** templates, **CSS** styling
 - 🗄️ **PostgreSQL** persistence via a lightweight model layer
 
